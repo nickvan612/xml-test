@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<product>
+    <product name="HEC-HMS">
+        <channel id="hec-hms-release" name="HEC-HMS Release" status="release" url="https://www.hec.usace.army.mil/software/hec-hms/downloads.aspx" feedback="https://www.hec.usace.army.mil/software/hec-hms/bug_report.aspx">
+            <build releaseDate="2021-03-01">
+                <version major="4" minor="8"/>
+                <message></message>
+                <button name="download-windows" url=""/>
+                <button name="download-macos" url=""/>
+                <button name="download-linux" url=""/>
+            </build>
+            <build releaseDate="2019-02-01">
+                <version major="4" minor="5" patch="1"/>
+                <message></message>
+                <button name="download-windows" url=""/>
+                <button name="download-macos" url=""/>
+                <button name="download-linux" url=""/>
+            </build>
+            <build releaseDate="2023-03-05">
+                <version major="5" minor="2"/>
+                <message></message>
+                <button name="download-windows" url=""/>
+                <button name="download-macos" url=""/>
+                <button name="download-linux" url=""/>
+            </build>
+            <build releaseDate="2021-03-02">
+                <version major="4" minor="8" patch="5"/>
+                <message></message>
+                <button name="download-windows" url=""/>
+                <button name="download-macos" url=""/>
+                <button name="download-linux" url=""/>
+            </build>
+        </channel>
+        <channel id="hec-hms-beta" name="HEC-HMS Beta" status="beta" url="https://www.hec.usace.army.mil/software/hec-hms/downloads.aspx" feedback="https://www.hec.usace.army.mil/software/hec-hms/bug_report.aspx">
+            <build releaseDate="2022-05-07">
+                <version major="5" minor="0" betaNumber="1"/>
+                <message></message>
+            </build>
+            <build releaseDate="2022-05-03">
+                <version major="4" minor="3" patch="1" betaNumber="5"/>
+                <message></message>
+            </build>
+            <build releaseDate="2021-03-01">
+                <version major="4" minor="9" betaNumber="1"/>
+                <message></message>
+                <button name="download-windows" url=""/>
+                <button name="download-macos" url=""/>
+                <button name="download-linux" url=""/>
+            </build>
+            <build releaseDate="2019-05-01">
+                <version major="4" minor="1" betaNumber="5"/>
+                <message></message>
+            </build>
+        </channel>
+    </product>
+</product>
